@@ -3,12 +3,12 @@ apiVersion: v1
 metadata:
  name: nginx
 spec:
- selector: 
+  selector: 
     project: expense
     environment: dev
     component: backend
     version: "1.0.0"
- ports:
+  ports:
   - protocol: TCP
     port: 80
     targetPort: 80
