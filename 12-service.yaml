@@ -12,9 +12,7 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 80
- containers:
- - name: nginx
-   image: nginx
+ 
 
 
 kind: Pod
